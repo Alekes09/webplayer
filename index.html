@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Player IPTV</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <header>
+    <h1>📺 Web Player IPTV</h1>
+    <input id="search" type="text" placeholder="Buscar canal..." />
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <ul id="channelList"></ul>
+    </aside>
+    <section id="content">
+      <div id="now">
+        <span id="nowName">Selecione um canal</span>
+        <small id="nowWarn"></small>
+      </div>
+      <video id="video" controls playsinline></video>
+    </section>
+  </main>
+
+  <footer>
+    <span>Dica: use HTTPS ou configure o PROXY no script.js</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
