@@ -1,0 +1,6 @@
+{
+  "name": "proxy-ip-tv",
+  "version": "1.0.0",
+  "main": "api/proxy.js",
+  "license": "MIT"
+}
